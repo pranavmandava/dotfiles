@@ -62,7 +62,6 @@
           "aerospace"
           "flux-app"
           "jordanbaird-ice@beta"
-          "stats"
           "postgres-app"
           "qbittorrent"
 	        "caffeine"

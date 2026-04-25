@@ -19,7 +19,7 @@
       "gperf"
       "python3"
       "ccache"
-      "stlink" # stm32 - squid 
+      "stlink" # stm32 - squid
       "protobuf" # protobuf protocol - squid
       "qemu"
       "dtc"
@@ -30,10 +30,12 @@
     casks = [
       "arduino-ide"
       "utm"
+      "gqrx"
       "brave-browser"
       "zed"
       "visual-studio-code"
       "zoom"
+      "stats"
       "antigravity"
       "netnewswire"
       "battery-toolkit"
@@ -47,10 +49,6 @@
     ];
 
     masApps = {
-      "WhatsApp" = 310633997;
-      "Keynote" = 361285480;
-      "Pages" = 361309726;
-      "Numbers" = 361304891;
       "Xcode" = 497799835;
     };
   };

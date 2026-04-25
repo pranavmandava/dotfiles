@@ -5,3 +5,10 @@
 .config/gh/hosts.yml
 .wrangler/
 .DS_Store
+
+.config/configstore/update-notifier-netlify-cli.json
+.config/crush/
+.config/fizzy/
+.config/gnuradio/
+.config/goose/
+.config/gqrx/

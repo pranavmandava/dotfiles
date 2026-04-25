@@ -1,4 +1,16 @@
 {
+  "project_panel": {
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "git_panel": {
+    "dock": "left"
+  },
   "agent_servers": {
     "opencode": {
       "type": "registry",
@@ -11,6 +23,7 @@
     "mode": "subtle",
   },
   "agent": {
+    "dock": "right",
     "default_model": {
       "provider": "zed.dev",
       "model": "claude-sonnet-4-thinking",
