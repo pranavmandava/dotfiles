@@ -1,0 +1,11 @@
+{
+  "version": "1",
+  "environments": {
+    "prod": {
+      "e37d3b39-f433-81c8-aaf3-0003dddf4648": {
+        "id": "e37d3b39-f433-81c8-aaf3-0003dddf4648",
+        "name": "Sun Devil Satellite Lab"
+      }
+    }
+  }
+}

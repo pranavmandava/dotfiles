@@ -2,6 +2,8 @@
 {
   homebrew = {
 
+    onActivation.upgrade = true;
+
     taps = [
       "mneves75/tap"
       "steipete/tap"
@@ -36,20 +38,14 @@
       "visual-studio-code"
       "zoom"
       "stats"
-      "antigravity"
       "netnewswire"
       "battery-toolkit"
       "dbeaver-community"
       "cursor"
       "legcord"
-      "balenaetcher"
-      "superwhisper"
       "codexbar"
       "monitorcontrol"
     ];
 
-    masApps = {
-      "Xcode" = 497799835;
-    };
   };
 }

@@ -200,5 +200,16 @@
         }
       }
     }
+  },
+  "mcp": {
+    "react-grab-mcp": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@react-grab/mcp",
+        "--stdio"
+      ]
+    }
   }
 }

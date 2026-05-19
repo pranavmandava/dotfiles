@@ -36,7 +36,6 @@
         greedyCasks = true;
 
         brews = [
-          "mas"
           "mole"
           "libpq" # for psql cli tool
         ];
@@ -67,9 +66,6 @@
 	        "caffeine"
         ];
 
-        masApps = {
-          "Tailscale" = 1475387142;
-        };
 
         onActivation.cleanup = "zap";
         onActivation.autoUpdate = true;
