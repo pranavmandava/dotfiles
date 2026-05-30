@@ -12,3 +12,5 @@
 .config/gnuradio/
 .config/goose/
 .config/gqrx/
+
+.local/bin/claude # A symlink is added to .local/bin folder so we are ignoring it 
