@@ -12,3 +12,6 @@
 .config/gnuradio/
 .config/goose/
 .config/gqrx/
+
+# claude binary symlink managed outside dotfiles
+.local/bin/claude
