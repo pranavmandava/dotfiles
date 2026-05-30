@@ -13,4 +13,5 @@
 .config/goose/
 .config/gqrx/
 
-.local/bin/claude # A symlink is added to .local/bin folder so we are ignoring it 
+# claude binary symlink managed outside dotfiles
+.local/bin/claude
