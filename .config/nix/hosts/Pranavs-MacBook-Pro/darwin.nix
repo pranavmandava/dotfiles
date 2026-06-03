@@ -7,6 +7,7 @@
     taps = [
       "mneves75/tap"
       "steipete/tap"
+      "aprilnea/tap"
     ];
 
     brews = [
@@ -45,6 +46,7 @@
       "legcord"
       "codexbar"
       "monitorcontrol"
+      "aprilnea/tap/openlogi"
     ];
 
   };
