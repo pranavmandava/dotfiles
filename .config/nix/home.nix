@@ -19,6 +19,7 @@
   home.sessionPath = [
     "$HOME/.bun/bin"
     "$HOME/.local/bin"
+    "$HOME/.lmstudio/bin"
     "/Applications/Tailscale.app/Contents/MacOS"
     "/Applications/Postgres.app/Contents/Versions/latest/bin"
   ];
