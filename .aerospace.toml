@@ -163,6 +163,7 @@ cmd-alt-ctrl-shift-semicolon = 'exec-and-forget open -a /System/Volumes/Data/App
 cmd-alt-ctrl-shift-q = 'exec-and-forget open -a /System/Volumes/Data/Applications/Google\ Chrome.app'
 cmd-alt-ctrl-shift-comma = 'exec-and-forget open -a /System/Volumes/Data/Applications/Codex.app'
 cmd-alt-ctrl-shift-l = 'exec-and-forget open -a /System/Volumes/Data/Applications/ChatGPT\ Atlas.app'
+cmd-alt-ctrl-shift-u = 'exec-and-forget open -a /System/Volumes/Data/Applications/cmux.app'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#workspace-back-and-forth
 alt-tab = 'workspace-back-and-forth'

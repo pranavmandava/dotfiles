@@ -5,14 +5,14 @@
     onActivation.upgrade = true;
 
     taps = [
-      "mneves75/tap"
-      "steipete/tap"
-      "aprilnea/tap"
+      { name = "mneves75/tap"; trusted = true; }
+      { name = "steipete/tap"; trusted = true; }
+      { name = "aprilnea/tap"; trusted = true; }
+      { name = "srimanachanta/tap"; trusted = true; }
     ];
 
     brews = [
       "awscli"
-      "deno"
       "railway"
       "smartmontools" # For HardDrive Health monitoring
       "healthsync"
@@ -24,6 +24,7 @@
       "ccache"
       "stlink" # stm32 - squid
       "protobuf" # protobuf protocol - squid
+      "yt-dlp"
       "qemu"
       "dtc"
       "wget"
@@ -38,15 +39,14 @@
       "zed"
       "visual-studio-code"
       "zoom"
-      "stats"
       "netnewswire"
-      "battery-toolkit"
+      "stats"
       "dbeaver-community"
       "cursor"
       "legcord"
       "codexbar"
       "monitorcontrol"
-      "aprilnea/tap/openlogi"
+      "stasis"
     ];
 
   };

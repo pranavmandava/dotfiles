@@ -13,6 +13,9 @@
     "dock": "left"
   },
   "agent_servers": {
+    "opencode": {
+      "type": "registry"
+    },
     "gemini": {
       "type": "registry"
     },

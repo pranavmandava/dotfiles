@@ -41,19 +41,17 @@
         ];
 
         taps = [
-          "oven-sh/homebrew-bun"
-          "nikitabobko/homebrew-tap"
-          "mhaeuser/mhaeuser"
+          { name = "oven-sh/homebrew-bun"; trusted = true; }
+          { name = "nikitabobko/homebrew-tap"; trusted = true; }
+          { name = "mhaeuser/mhaeuser"; trusted = true; }
         ];
 
         casks = [
           "the-unarchiver"
           "iina"
           "obsidian"
-          "lm-studio"
           "hyperkey"
           "raycast"
-          "activitywatch"
           "google-chrome"
           "maccy"
           "orbstack"

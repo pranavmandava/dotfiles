@@ -211,6 +211,17 @@
         "@react-grab/mcp",
         "--stdio"
       ]
+    },
+    "twenty-crm": {
+      "type": "local",
+      "command": [
+        "node",
+        "/Users/pranav/twenty-mcp-server/build/index.js"
+      ],
+      "env": {
+        "TWENTY_BASE_URL": "http://localhost:3000/rest",
+        "TWENTY_API_KEY": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjUzYWRjNGU1LWYxYzQtNDhjMC1hOGNhLWIxMGQ2YTcwYzI0NiJ9.eyJzdWIiOiJjZGUzMjFmZi1hOTVkLTRhYjgtYjNlZS1jYzcyNzE4Yzk1NzkiLCJ0eXBlIjoiQVBJX0tFWSIsIndvcmtzcGFjZUlkIjoiY2RlMzIxZmYtYTk1ZC00YWI4LWIzZWUtY2M3MjcxOGM5NTc5IiwiaWF0IjoxNzgzNzc2NTM2LCJleHAiOjQ5MzczNzY1MzUsImp0aSI6IjUyMmI2ODYyLTM5NzYtNGQ1Ni04Mjg0LWQxMWY3OGMwYzZkYSJ9.bCyihgydd2dFAR1RVgF5mxRWCjqQtTLl4qxiCrg5-_gkptibyFemebq8EoPcoan4tFRPVAtVKazZS2zMpxQaTA"
+      }
     }
   }
 }
