@@ -1,17 +1,27 @@
 {
   "$schema": "https://opencode.ai/config.json",
   "mcp": {
-    "railway": {
-      "command": [
-        "railway",
-        "mcp"
-      ],
-      "enabled": true,
-      "type": "local"
-    },
-    "cloudflare-api": {
-      "type": "remote",
-      "url": "https://mcp.cloudflare.com/mcp"
+    "servers": {
+      "railway": {
+        "type": "local",
+        "command": [
+          "railway",
+          "mcp"
+        ],
+        "disabled": false
+      },
+      "cloudflare-api": {
+        "type": "remote",
+        "url": "https://mcp.cloudflare.com/mcp"
+      },
+      "arc-systems": {
+        "type": "remote",
+        "url": "https://bot.arc-systems.org/mcp"
+      },
+      "directus": {
+        "type": "remote",
+        "url": "https://directus.arc-systems.org/mcp"
+      }
     }
   }
 }

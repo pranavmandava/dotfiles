@@ -13,5 +13,26 @@
 .config/goose/
 .config/gqrx/
 
+.config/agents/
+.config/opencode/skills/
+.config/devin/
+.config/kimchi/
+
+# secrets / machine-specific
+.config/opencode/service.json
+.config/raycast/aster-endpoint.json
+.config/origin-cli/feature-flags.json
+.config/origin-cli/update-check.json
+
+# cache / state / churn
+.config/browser-harness/
+.config/browserbase/
+.config/cursor/chats/
+.config/cursor/statsig-cache.json
+.config/raycast/node-compile-cache/
+.config/gws/cache/
+.config/opencode/*.backup.*
+.config/qBittorrent/qBittorrent-data.ini
+
 # claude binary symlink managed outside dotfiles
 .local/bin/claude

@@ -16,26 +16,18 @@
       "railway"
       "smartmontools" # For HardDrive Health monitoring
       "healthsync"
-      "clang-format"
-      "cmake"
-      "ninja"
-      "gperf"
-      "python3"
-      "ccache"
       "stlink" # stm32 - squid
       "protobuf" # protobuf protocol - squid
-      "yt-dlp"
       "qemu"
-      "dtc"
-      "wget"
       "libmagic"
+      "openjdk@17"
     ];
 
     casks = [
       "arduino-ide"
       "utm"
       "gqrx"
-      "brave-browser"
+      { name = "brave-browser"; greedy = false; }
       "zed"
       "visual-studio-code"
       "zoom"
@@ -46,7 +38,7 @@
       "legcord"
       "codexbar"
       "monitorcontrol"
-      "stasis"
+      "cmux"
     ];
 
   };

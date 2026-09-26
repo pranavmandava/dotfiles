@@ -1,5 +1,8 @@
 {
   "trustedtaps": [
     "steipete/tap"
+  ],
+  "trustedcasks": [
+    "nikitabobko/tap/aerospace"
   ]
 }

@@ -10,3 +10,9 @@
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
+[credential "https://origin.cursor.com/git"]
+	helper = 
+	helper = !/Users/pranav/.local/bin/origin credential-helper
+[credential "https://origin.cursor.com"]
+	helper = 
+	helper = !/Users/pranav/.local/bin/origin credential-helper

@@ -1,23 +1,57 @@
 {
-  "version": 1,
-  "editor": {
-    "vimMode": false
-  },
-  "hasChangedDefaultModel": false,
   "permissions": {
     "allow": [
       "Shell(ls)"
     ],
     "deny": []
   },
-  "approvalMode": "allowlist",
-  "sandbox": {
-    "mode": "disabled",
-    "networkAccess": "allowlist"
+  "version": 1,
+  "editor": {
+    "vimMode": false
+  },
+  "display": {
+    "showLineNumbers": false,
+    "showThinkingBlocks": false,
+    "showStatusIndicators": false,
+    "showStatusLineRunningTime": false,
+    "mode": "zen"
+  },
+  "notifications": true,
+  "hints": true,
+  "modelSlashCommands": true,
+  "rewind": true,
+  "model": {
+    "modelId": "cursor-grok-4.6-low",
+    "displayModelId": "cursor-grok-4.6-low",
+    "displayName": "Cursor Grok 4.6 Low",
+    "displayNameShort": "Cursor Grok 4.6 Low",
+    "aliases": [],
+    "maxMode": false
+  },
+  "hasChangedDefaultModel": true,
+  "maxMode": false,
+  "exploreSubagentModel": "default",
+  "privacyCache": {
+    "ghostMode": false,
+    "privacyMode": 4,
+    "updatedAt": 1789331339790
+  },
+  "authInfo": {
+    "email": "pmandav3@asu.edu",
+    "displayName": "Pranav Mandava",
+    "userId": 359598923,
+    "authId": "auth0|user_01KRY00M1YBHPYBP1D44CDAAE3"
   },
   "network": {
     "useHttp1ForAgent": false
   },
+  "approvalMode": "allowlist",
+  "autoAcceptWebSearch": false,
+  "sandbox": {
+    "mode": "disabled",
+    "networkAccess": "user_config_with_defaults"
+  },
+  "runEverythingSettingsPromptStreak": 0,
   "attribution": {
     "attributeCommitsToAgent": true,
     "attributePRsToAgent": true

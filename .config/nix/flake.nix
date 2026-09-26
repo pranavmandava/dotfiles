@@ -38,12 +38,22 @@
         brews = [
           "mole"
           "libpq" # for psql cli tool
+          # ESP-IDF prerequisites (https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/macos-setup.html)
+          "libgcrypt"
+          "glib"
+          "pixman"
+          "sdl2"
+          "libslirp"
+          "dfu-util"
+          "cmake"
+          "python"
+          "eim" # Espressif Installation Manager CLI
         ];
 
         taps = [
-          { name = "oven-sh/homebrew-bun"; trusted = true; }
-          { name = "nikitabobko/homebrew-tap"; trusted = true; }
+          { name = "nikitabobko/tap"; trusted = true; }
           { name = "mhaeuser/mhaeuser"; trusted = true; }
+          { name = "espressif/eim"; trusted = true; }
         ];
 
         casks = [
@@ -56,12 +66,13 @@
           "maccy"
           "orbstack"
           "ghostty"
-          "aerospace"
+          "nikitabobko/tap/aerospace"
           "flux-app"
           "jordanbaird-ice@beta"
           "postgres-app"
           "qbittorrent"
-	        "caffeine"
+          "caffeine"
+          "eim-gui"
         ];
 
 

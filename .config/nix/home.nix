@@ -26,15 +26,21 @@
 
   home.packages = with pkgs; [
     btop
-    bun
+    ccache
+    clang-tools # for clang-format
     cloudflared
+    cmake
+    dtc
     eza
     exiftool
     fastfetch
     gh
     git-lfs
+    gperf
     helix
+    ninja
     nodejs_24
+    python3
     ripgrep
     rustup
     stow
@@ -43,6 +49,7 @@
     uv
     wget
     xcbuild
+    yt-dlp
     zellij
   ];
 
